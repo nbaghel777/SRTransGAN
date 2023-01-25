@@ -1,4 +1,4 @@
-
+import numpy
 import os
 import argparse
 import copy
@@ -8,13 +8,13 @@ import torch
 from PIL import Image
 import torch.nn as nn
 from tqdm import tqdm
-import Restormer as models
+import SRTransG as models
 import matplotlib.pyplot as plt
 import matplotlib
 import torchvision.transforms as T
 from torchvision.utils import make_grid
 from torch.autograd import Variable
-import numpy
+
 import matplotlib.cm as mpl_color_map
 import cv2
 
@@ -84,12 +84,12 @@ def map(generator):
         logger_name='testlog').get_log()
     _logger.info("test module")
     generator.eval()
-    mapdataset(generator,'/home/galvin/code/dataset/DIV2K_valid_HR' )
-    mapdataset(generator,'/home/galvin/code/dataset/Set5' )
-    mapdataset(generator,'/home/galvin/code/dataset/Set14' )
-    mapdataset(generator,'/home/galvin/code/dataset/BSD100' )
-    mapdataset(generator,'/home/galvin/code/dataset/urban100' )
-    mapdataset(generator,'/home/galvin/code/dataset/manga' )
+    mapdataset(generator,'../dataset/DIV2K_valid_HR' )
+    mapdataset(generator,'../dataset/Set5' )
+    mapdataset(generator,'../dataset/Set14' )
+    mapdataset(generator,'../dataset/BSD100' )
+    mapdataset(generator,'../dataset/urban100' )
+    mapdataset(generator,'../dataset/manga' )
     generator.train()
     return 
 
@@ -163,11 +163,11 @@ def test(generator):
     _logger.info("test module")
     generator.eval()
     #testdataset(generator,'/home/galvin/code/dataset/DIV2K_valid_HR',_logger )
-    testdataset(generator,'/home/galvin/code/dataset/Set5',_logger )
-    testdataset(generator,'/home/galvin/code/dataset/Set14',_logger )
-    testdataset(generator,'/home/galvin/code/dataset/BSD100',_logger )
-    testdataset(generator,'/home/galvin/code/dataset/urban100',_logger )
-    testdataset(generator,'/home/galvin/code/dataset/manga',_logger )
+    testdataset(generator,'../dataset/Set5',_logger )
+    testdataset(generator,'../dataset/Set14',_logger )
+    testdataset(generator,'../dataset/BSD100',_logger )
+    testdataset(generator,'../dataset/urban100',_logger )
+    testdataset(generator,'../dataset/manga',_logger )
     generator.train()
     return 
     
@@ -189,7 +189,7 @@ if __name__ == '__main__':
     # Device
     device = torch.device("cuda:0")
     # Initialize Generator and Discriminator
-    netG = nn.DataParallel(models.Restormer()).to(device)
+    netG = nn.DataParallel(models.SRTransG()).to(device)
     netG.load_state_dict(copy.deepcopy(torch.load(str(args.weight)+"/weights/Generator.pth")))   
     # Loss function
     criterion = nn.BCELoss()
