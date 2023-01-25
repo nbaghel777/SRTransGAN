@@ -200,7 +200,7 @@ class Upsample(nn.Module):
         return self.body(x)
 
 ##########################################################################
-##---------- Restormer -----------------------
+##---------- SRTransGAN -----------------------
 class SRTransG(nn.Module):
     def __init__(self, 
         inp_channels=3, 
