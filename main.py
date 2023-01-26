@@ -1,7 +1,5 @@
 ### SRTransGAN: SRTransGAN: Image Super-Resolution using Transformer based Generative Adversarial Network
 
-#!python main.py --steps 200 --lr 0.0002 --batch-size 1 --name dataRestormer4 
-
 import os
 import argparse
 import copy
