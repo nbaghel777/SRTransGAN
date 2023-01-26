@@ -14,7 +14,7 @@ import matplotlib
 import torchvision.transforms as T
 from torchvision.utils import make_grid
 from torch.autograd import Variable
-
+from datetime import datetime, date
 import matplotlib.cm as mpl_color_map
 import cv2
 
@@ -160,7 +160,8 @@ def testdataset(generator,datasetloc,_logger):
 def test(generator):
     _logger=utils.Logger(log_file_name=os.path.join(str(args.weight),'test.log'), 
         logger_name='testlog').get_log()
-    _logger.info("test module")
+    _logger.info("")
+    _logger.info("Test module:  "+ datetime.now().strftime("%d/%m/%Y %H:%M:%S"))
     generator.eval()
     #testdataset(generator,'/home/galvin/code/dataset/DIV2K_valid_HR',_logger )
     testdataset(generator,'../dataset/Set5',_logger )
