@@ -83,7 +83,7 @@ def train(generator, discriminator, optim_g,optim_d, data_loader, tot_batch, dev
     bestssim=0
     bestno=0
     
-    for step in tqdm(range(args.steps*tot_batch+1)):
+    for step in tqdm(range(args.epoch*tot_batch+1)):
         #Ground truth images.
         realB = next(data_loader).to(device)
         realA = nn.AvgPool2d(2, stride=2)(realB)
@@ -165,8 +165,8 @@ def train(generator, discriminator, optim_g,optim_d, data_loader, tot_batch, dev
             
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument("--steps", type = int, default = 200,
-                        help = "Number of steps for training (Default: 100000)")
+    parser.add_argument("--epoch", type = int, default = 200,
+                        help = "Number of epoch for training (Default: 200)")
     parser.add_argument("--batch-size", type = int, default = 1,
                         help = "Size of each batches (Default: 1)")
     parser.add_argument("--lr", type = float, default = 0.0002,
