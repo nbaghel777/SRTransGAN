@@ -1,7 +1,8 @@
-#Please cite these paper: 
-
-
+#Contact
+Should you have any question, please contact neerajbaghel@ieee.org
 1) SRTransGAN: SRTransGAN: Image Super-Resolution using Transformer based Generative Adversarial Network
-2) Restormer: Efficient Transformer for High-Resolution Image Restoration (CVPR 2022)
-3) ViTGAN: Training GANs with Vision Transformers
+
+#Related Works (Please also cite this): 
+1) Restormer: Efficient Transformer for High-Resolution Image Restoration (CVPR 2022)
+2) ViTGAN: Training GANs with Vision Transformers
 
