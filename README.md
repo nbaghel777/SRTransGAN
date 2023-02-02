@@ -50,7 +50,7 @@ If you use SRTransGAN, please consider citing:
     year={2022}
 }
 
-# Related Works (Also cite this): 
+# Related Works: 
 1) Restormer: Efficient Transformer for High-Resolution Image Restoration (CVPR 2022)
 2) ViTGAN: Training GANs with Vision Transformers
 
