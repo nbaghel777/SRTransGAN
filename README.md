@@ -1,4 +1,4 @@
-# SRTransGAN: SRTransGAN: Image Super-Resolution using Transformer based Generative Adversarial Network
+# SRTransGAN: Image Super-Resolution using Transformer based Generative Adversarial Network
 [Neeraj Baghel](https://sites.google.com/view/nbaghel777) , [Satish Singh](https://cvbl.iiita.ac.in/sks/) and [Shiv Ram Dubey](https://profile.iiita.ac.in/srdubey/)
 <!--
 [![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)]()
@@ -45,7 +45,7 @@ Should you have any question, please contact neerajbaghel@ieee.org
 If you use SRTransGAN, please consider citing:
 
 @inproceedings{baghel2022srtransgan,
-    title={SRTransGAN: SRTransGAN: Image Super-Resolution using Transformer based Generative Adversarial Network}, 
+    title={SRTransGAN: Image Super-Resolution using Transformer based Generative Adversarial Network}, 
     author={Neeraj Baghel and Satish Singh and Shiv Ram Dubey},
     year={2022}
 }
