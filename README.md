@@ -20,10 +20,10 @@
 
 <hr />
 
-> **Abstract:** *Image super-resolution aims to synthesize high-resolution image from a low-resolution image. 
+> **Abstract:** Image super-resolution aims to synthesize high-resolution image from a low-resolution image. 
 It is an active area to overcome the resolution limitations in several applications like low-resolution object-recognition, medical image enhancement, etc. 
 The generative adversarial network (GAN) based methods have been the state-of-the-art for image super-resolution by utilizing the convolutional neural networks (CNNs) based generator and discriminator networks. However, the CNNs are not able to exploit the global information very effectively in contrast to the transformers, which are the recent breakthrough in deep learning by exploiting the self-attention mechanism. Motivated from the success of transformers in language and vision applications, we propose a SRTransGAN for image super-resolution using transformer based GAN. Specifically, we propose a novel transformer-based encoder-decoder network as a generator to generate $2\times$ images and $4\times$ images. We design the discriminator network using vision transformer which uses the image as sequence of patches and hence useful for binary classification between synthesized and real high-resolution images. 
-The proposed SRTransGAN outperforms the existing methods by 4.38\% on an average of PSNR and SSIM scores. We also analyze the saliency map to show the effectiveness of the proposed method. The code used in the paper will be publicly available at xxxxxxxxx.
+The proposed SRTransGAN outperforms the existing methods by 4.38\% on an average of PSNR and SSIM scores. We also analyze the saliency map to show the effectiveness of the proposed method. The code used in the paper will be publicly available at [https://github.com/nbaghel777/SRTransGAN](https://github.com/nbaghel777/SRTransGAN).
 <hr />
 
 # Network Architecture
