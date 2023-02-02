@@ -1,8 +1,56 @@
-###Contact
+# SRTransGAN: SRTransGAN: Image Super-Resolution using Transformer based Generative Adversarial Network
+[Neeraj Baghel](https://sites.google.com/view/nbaghel777) , [Satish Singh](https://cvbl.iiita.ac.in/sks/) and [Shiv Ram Dubey](https://profile.iiita.ac.in/srdubey/)
+
+[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2111.09881)
+[![supplement](https://img.shields.io/badge/Supplementary-Material-red)](https://drive.google.com/file/d/1oKGON8vG4uDWMmZKqHeTMnFowhOubifK/view?usp=sharing)
+[![video](https://img.shields.io/badge/Video-Presentation-F9D371)](https://www.youtube.com/watch?v=3mqu6N4_0pY&t)
+[![slides](https://img.shields.io/badge/Presentation-Slides-B762C1)](https://drive.google.com/file/d/19wKhnQtr3mcD6IsLj0ZFSwCgIRKUkDQJ/view?usp=sharing)
+[![Summary](https://img.shields.io/badge/Summary-Slide-87CEEB)](https://drive.google.com/file/d/1wyKAMLzJpDqHiF6AMsmnmGQC241GyT8q/view?usp=sharing)
+
+#### News
+<!--
+- **April 4, 2022:** Integrated into [Huggingface Spaces 🤗](https://huggingface.co/spaces) using [Gradio](https://github.com/gradio-app/gradio). Try out the web demo: [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/swzamir/Restormer)
+- **March 30, 2022:** Added Colab Demo. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1C2818h7KnjNv4R1sabe14_AYL7lWhmu6?usp=sharing)
+- **March 29, 2022:** Restormer is selected for an ORAL presentation at CVPR 2022 :dizzy:
+- **March 10, 2022:** Training codes are released :fire:
+- **March 3, 2022:** Paper accepted at CVPR 2022 :tada: 
+ -->
+- **Jan, 2023:** Testing codes and pre-trained models are released!
+- **April, 2022:** Paper submitted
+
+<hr />
+
+> **Abstract:** *Image super-resolution aims to synthesize high-resolution image from a low-resolution image. 
+It is an active area to overcome the resolution limitations in several applications like low-resolution object-recognition, medical image enhancement, etc. 
+The generative adversarial network (GAN) based methods have been the state-of-the-art for image super-resolution by utilizing the convolutional neural networks (CNNs) based generator and discriminator networks. However, the CNNs are not able to exploit the global information very effectively in contrast to the transformers, which are the recent breakthrough in deep learning by exploiting the self-attention mechanism. Motivated from the success of transformers in language and vision applications, we propose a SRTransGAN for image super-resolution using transformer based GAN. Specifically, we propose a novel transformer-based encoder-decoder network as a generator to generate $2\times$ images and $4\times$ images. We design the discriminator network using vision transformer which uses the image as sequence of patches and hence useful for binary classification between synthesized and real high-resolution images. 
+The proposed SRTransGAN outperforms the existing methods by 4.38\% on an average of PSNR and SSIM scores. We also analyze the saliency map to show the effectiveness of the proposed method. The code used in the paper will be publicly available at xxxxxxxxx.
+<hr />
+
+# Network Architecture
+
+
+# Demo
+
+
+# Training and Evaluation
+
+
+# Results
+
+# Contact:
 Should you have any question, please contact neerajbaghel@ieee.org
 1) SRTransGAN: SRTransGAN: Image Super-Resolution using Transformer based Generative Adversarial Network
 
-###Related Works (Please also cite this): 
+# Citation
+If you use SRTransGAN, please consider citing:
+
+@inproceedings{baghel2022srtransgan,
+    title={SRTransGAN: SRTransGAN: Image Super-Resolution using Transformer based Generative Adversarial Network}, 
+    author={Neeraj Baghel and Satish Singh and Shiv Ram Dubey},
+    year={2022}
+}
+
+# Related Works (Also cite this): 
 1) Restormer: Efficient Transformer for High-Resolution Image Restoration (CVPR 2022)
 2) ViTGAN: Training GANs with Vision Transformers
 
