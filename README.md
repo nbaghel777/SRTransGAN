@@ -1,12 +1,12 @@
 # SRTransGAN: SRTransGAN: Image Super-Resolution using Transformer based Generative Adversarial Network
 [Neeraj Baghel](https://sites.google.com/view/nbaghel777) , [Satish Singh](https://cvbl.iiita.ac.in/sks/) and [Shiv Ram Dubey](https://profile.iiita.ac.in/srdubey/)
-
+<!--
 [![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)]()
 [![supplement](https://img.shields.io/badge/Supplementary-Material-red)]()
 [![video](https://img.shields.io/badge/Video-Presentation-F9D371)]()
 [![slides](https://img.shields.io/badge/Presentation-Slides-B762C1)]()
 [![Summary](https://img.shields.io/badge/Summary-Slide-87CEEB)]()
-
+ -->
 #### News
 <!--
 - **April 4, 2022:** Integrated into [Huggingface Spaces 🤗](https://huggingface.co/spaces) using [Gradio](https://github.com/gradio-app/gradio). Try out the web demo: [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/swzamir/Restormer)
@@ -15,7 +15,7 @@
 - **March 10, 2022:** Training codes are released :fire:
 - **March 3, 2022:** Paper accepted at CVPR 2022 :tada: 
  -->
-- **Jan, 2023:** Testing codes and pre-trained models are released!
+- **Jan, 2023:** Codes are released!
 - **April, 2022:** Paper submitted
 
 <hr />
