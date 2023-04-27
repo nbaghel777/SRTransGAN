@@ -27,7 +27,7 @@ The proposed SRTransGAN outperforms the existing methods by 4.38\% on an average
 <hr />
 
 # Network Architecture
-<img src = "https://github.com/nbaghel777/SRTransGAN/blob/main/ETSR-Generator.png"> 
+<img src = "https://github.com/nbaghel777/SRTransGAN/blob/main/SRTransG.png"> 
 
 # Training and Evaluation
 
