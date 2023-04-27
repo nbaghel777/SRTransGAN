@@ -31,11 +31,11 @@ The proposed SRTransGAN outperforms the existing methods by 4.38\% on an average
 
 # Training and Evaluation
 
-<img src = "https://github.com/nbaghel777/SRTransGAN/blob/main/Screenshot%20from%202023-02-02%2011-13-01.png"> 
+<img src = "https://github.com/nbaghel777/SRTransGAN/blob/main/result2.png"> 
 
 
 # Results
-<img src = "https://github.com/nbaghel777/SRTransGAN/blob/main/Screenshot%20from%202023-02-02%2011-12-05.png"> 
+<img src = "https://github.com/nbaghel777/SRTransGAN/blob/main/result1.png"> 
 
 # Contact:
 Should you have any question, please contact neerajbaghel@ieee.org
